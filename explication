@@ -1,0 +1,17 @@
+1-the web page composed on 2 part :
+  * part1: have all choeses, if we decide to bay it, its simple add item to our paquet one or more. 
+    We can also removed from paquet.if you like a cpecial shose clique on icone heart.Top of page you see number of your shoeses that you bay.
+  
+  * part2 : you can see detail of your paquet number of each shoes that you bay it,also the price   
+    of choeses.If like to remove choes,you can see what you update.In buttom you can see the global price of what you bay.
+
+2-explication de code javascript action.js :
+  * declare global variable insted to select elements by 'document.getElementById' because we will 
+    used in more then one function.
+  * add event to icone heart to change his color by click,we add event by 'addEventListener', we 
+    associate function 'heart_ch()' that change the color.
+  * add to butom 'add to cart' event to add new choes and display it in the cart.Add price 
+    of this shoes to total price, we can do this by calling function 'add()'.
+  * add to butom 'remove from cart' event to remove one choes.We remove price of this shoes from  
+    total price, we can do this by calling function 'remove()'.
+    ===>if we have total quantity of shoeses 0 or less we cant remove so we add alerte() in this case

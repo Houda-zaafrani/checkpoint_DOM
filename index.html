@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+
+      <link href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Dancing+Script&family=Flow+Circular&family=Libre+Baskerville&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,900&display=swap"
+      rel="stylesheet">
+</head>
+<body>
+ <div class="containe">
+   <div id="container">
+      <div id="acceuil">
+         <h1 class="title">welcome to your shopping cart</h1>
+         <div id="shopping">
+            <input width="10px" id="quantity" value="0" disabled>
+            <img src="panier.jfif">
+         </div>
+      </div>
+
+      <div id="liste">
+         <div class="image">
+            <img id="sho1" src="tal1.gif">
+            <button id="add_sh1">add to cart</button>
+            <button id="rem_sh1">remove from cart</button>
+            <i class="fa fa-heart heart1" ></i>
+
+         </div>
+
+         <div class="image">
+            <img id="sho2" src="tal2.gif">
+            <button id="add_sh2">add to cart</button>
+            <button id="rem_sh2">remove from cart</button>
+            <i class="fa fa-heart heart2"></i>
+
+         </div>
+
+         <div  class="image">
+            <img id="sho3" src="tal3.gif">
+            <button id="add_sh3">add to cart</button>
+            <button id="rem_sh3">remove from cart</button>
+            <i class="fa fa-heart heart3"></i>
+
+         </div>
+
+         <div class="image">
+            <img id="sho4" src="tal4.gif">
+            <button id="add_sh4">add to cart</button>
+            <button id="rem_sh4">remove from cart</button>
+            <i class="fa fa-heart heart4"></i>
+
+         </div>
+
+         <div class="image">
+            <img id="sho5" src="tal5.gif">
+            <button id="add_sh5">add to cart</button>
+            <button id="rem_sh5">remove from cart</button>
+            <i class="fa fa-heart heart5"></i>
+
+         </div>
+
+         <div class="image">
+            <img  id="sho6" src="tal6.gif">
+            <button id="add_sh6">add to cart</button>
+            <button id="rem_sh6">remove from cart</button>
+            <i class="fa fa-heart heart6"></i>
+
+         </div>
+      </div>
+      <!--------------------------cart ------------------>
+   </div>
+   <div id="cart">
+      <h1>Our carts</h1>
+      <div id="qtit">
+      <img  src="tal1.gif"><input disabled value="0" id="qtit1"></input>
+      <img  src="tal2.gif"><input disabled value="0" id="qtit2"></input>
+      <img  src="tal3.gif"><input disabled value="0" id="qtit3"></input>
+      <img  src="tal4.gif"><input disabled value="0" id="qtit4"></input>
+      <img src="tal5.gif"><input disabled value="0" id="qtit5"></input>
+      <img src="tal6.gif"><input disabled value="0" id="qtit6"></input>
+      </div>
+      <table id="list_cart">      
+         <tr>
+         </tr>
+      </table>
+         <input disabled value="0" id="total"></input>
+   </div>
+ </div>
+   <!--------------------link script-------------------------------------->
+   <script src="./action.js"></script>
+</body>
+
+</html>
